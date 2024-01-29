@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.parent {
+  text-align: center;
+  height: 35%;
+  width: 24%;
+  padding: 20px;
+  background-color: #ffffff; /* Set your desired background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  margin: 0 auto;
+}
+
+#score {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  text-align: right;
+  color: #4caf50;
+}
+
+#question {
+  font-size: 2rem;
+  font-family: cursive;
+  margin-bottom: 10px;
+}
+
+.inpt {
+  width: 70%;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size:2rem;
+}
+
+.submit {
+  background-color: #4caf50; /* Set your desired button color */
+  color: white;
+  width: 70%;
+  height:60px;
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.error {
+  color: #ff0000; /* Set your desired error message color */
+  margin-top: 10px;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Icons';
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#wrong {
+  background-color: #ff0000; /* Set your desired button color */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
